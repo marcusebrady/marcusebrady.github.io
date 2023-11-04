@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Research Interests & Experience"
-permalink: /URL/
+permalink: /research/
 ---
 
 ## Research Interests
