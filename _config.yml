@@ -1,18 +1,20 @@
-#title: Masters Student
-
-
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
+title: Masters Student
 description: >
   Masters student within the chemical and physical sciences with a focus on machine learning.
 
 # Build settings
-
 theme: minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Navigation links
+header_pages:
+  - README.md
+  - research.md
+
+# Social links
 minima:
-     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/marcusebrady" }
+  social_links:
+    linkedin: "https://www.linkedin.com/in/marcusebrady"
