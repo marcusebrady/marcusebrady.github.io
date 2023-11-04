@@ -4,19 +4,21 @@ title: Home
 permalink: /
 ---
 
-### Education
+## Education
 
-- **Master of Science by Research (MScR) in Chemistry**
-  University of York
- 
+- **MScR in Chemistry**, University of York - [Research focus description]
+- **BSc in Chemistry with Mathematics**, UCL - [Undergraduate experience highlights]
 
-- **Bachelor of Science (BSc) in Chemistry with Mathematics**
-  University College London (UCL)
+## Skills
 
+Expertise in:
+- Machine Learning & Data Analysis
+- Advanced Chemical Synthesis
+- Spectroscopic Techniques
 
-### About
+## About
 
-### Contact Me
+## Contact Me
 
 - **LinkedIn:** [linkedin.com/in/marcusebrady](https://www.linkedin.com/in/marcusebrady)
 
