@@ -1,4 +1,4 @@
-# Marcus Brady
+# Masters Student
 
 ### Education
 - Chemistry, MScR, University of York
