@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Masters Student
+title: Home
 permalink: /
 ---
 
