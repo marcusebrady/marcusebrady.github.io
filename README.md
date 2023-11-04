@@ -13,8 +13,7 @@ permalink: /
 
 Expertise in:
 - Machine Learning & Data Analysis
-- Advanced Chemical Synthesis
-- Spectroscopic Techniques
+
 
 ## About
 
