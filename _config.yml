@@ -14,7 +14,10 @@ header_pages:
   - README.md
   - research.md
 
-# Social links
+# Theme settings
 minima:
-  skin: 'dark'
-     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/marcusebrady" }
+  skin: "dark"
+
+# Social links
+social_links:
+  - { platform: linkedin, user_url: "https://www.linkedin.com/in/marcusebrady" }
