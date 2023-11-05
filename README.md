@@ -3,11 +3,20 @@ layout: page
 title: Home
 permalink: /
 ---
+## About
+
+Hello, welcome to my GitHub pages! I'm a Masters student at the University of York working within the Evans Group in the Wolfson Atmospheric Chemistry Laboratory (WACL). My current research is using various machine
+
+
+
 
 ## Education
 
-- **MScR in Chemistry**, University of York - 
-- **BSc in Chemistry with Mathematics**, UCL - 
+#### **MScR in Chemistry**, University of York 
+
+#### **BSc in Chemistry with Mathematics**, UCL 
+
+
 
 ## Skills
 
@@ -15,10 +24,12 @@ permalink: /
 - Practiced in Machine Learning:
     - TensorFlow, Keras, PyTorch, XGBoost & others.
     - Physics-Informed Neural Networks
-- 
+- Knowledge in Computational Chemistry:
+    - Quantum Mechanics & Molecular Dynamics
+    - CTMs like GEOS-Chem
 
 
-## About
+
 
 ## Contact Me
 
