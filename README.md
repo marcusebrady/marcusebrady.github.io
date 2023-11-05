@@ -39,6 +39,6 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
 
 ## Contact Me
 
-- [**LinkedIn:**](https://www.linkedin.com/in/marcusebrady)
+- <a href="https://www.linkedin.com/in/marcusebrady" target="_blank"><img src="(https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg)" alt="LinkedIn" style="height: 20px; width: 20px;"/> LinkedIn</a>
 
 Please also check out my [Research Interests & Experience](/research/) to learn more about my work and interests.
