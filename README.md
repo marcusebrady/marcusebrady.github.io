@@ -8,9 +8,7 @@ permalink: /
 Hello, welcome to my GitHub pages! I'm a Masters student at the University of York working within the Evans Group in the Wolfson Atmospheric Chemistry Laboratory (WACL). My current research is using various machine learning techiques (interested in PINNs and domain-knowledge ML) to replace the Fast-JX photolysis calculator within the GEOS-Chem model. Read my research and interests section for more information!
 
 
-<br/>
-
-<br/>
+<br/><br/>
 
 ## Education
 
@@ -18,9 +16,7 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
 
 #### **BSc in Chemistry with Mathematics**, UCL 
 
-<br/>
-
-<br/>
+<br/><br/>
 
 ## Skills
 
@@ -32,10 +28,7 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
     - Quantum Mechanics & Molecular Dynamics
     - CTMs like GEOS-Chem
 
-
-<br/>
-
-<br/>
+<br/><br/>
 
 ## Contact Me
 
