@@ -11,8 +11,11 @@ permalink: /
 
 ## Skills
 
-Expertise in:
-- Machine Learning & Data Analysis
+- Proficient in Python
+- Practiced in Machine Learning:
+    - TensorFlow, Keras, PyTorch, XGBoost & others.
+    - Physics-Informed Neural Networks
+- 
 
 
 ## About
