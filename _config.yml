@@ -9,6 +9,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+stylesheet: /assets/css/style.scss
+
 # Navigation links
 header_pages:
   - README.md
