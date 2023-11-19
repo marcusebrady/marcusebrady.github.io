@@ -1,9 +1,10 @@
 ---
 ---
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'dark' }}",
-  "minima/initialize";
+@import "../minima/_sass/minima/base";
+@import "../minima/_sass/minima/layout";
+@import "../minima/_sass/minima/initialize";
+@import "../minima/_sass/minima/skins/dark";
 
 header {
   background-color: #f8f8f8;
