@@ -1,1 +1,14 @@
+---
+---
 
+@import "{{ site.theme }}";
+
+/* Custom CSS starts here */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f8f8f8;
+
+}
