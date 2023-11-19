@@ -3,10 +3,8 @@ description: >
   Masters student within the chemical and physical sciences with a focus on machine learning.
 
 # Build settings
-remote_theme: pages-themes/minimal@v0.2.0
-
-
-plugins:
+remote_theme: pages-themes/minimal@v0.2.0  
+plugins:  
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
   - jekyll-seo-tag
