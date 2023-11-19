@@ -4,7 +4,7 @@ description: >
 
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0
-stylesheet: /assets/css/main.css
+stylesheet: /assets/css/style.scss
 
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
