@@ -17,7 +17,7 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
 <h5 style="font-family: 'Courier Prime', monospace;"><span style="font-weight: bold;">MScR in Chemistry,</span> University of York</h5>
 <h5 style="font-family: 'Courier Prime', monospace;"><span style="font-weight: bold;">BSc in Chemistry with Mathematics,</span> UCL</h5>
 
-
+<br>
 
 
 <h2 style="font-family: 'Courier Prime', monospace;">Skills</h2> 
