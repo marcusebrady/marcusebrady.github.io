@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <span style="font-family: 'Your Custom Font', sans-serif;">Home</span>
+title: Home
 permalink: /
 ---
 <h2  style="font-family: 'Courier Prime', monospace;">About</h2>
