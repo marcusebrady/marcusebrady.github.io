@@ -9,7 +9,7 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
 
 
 
-<h2 style="font-family: 'Courier Prime', monospace;">Education</h2>
+<h2>Education</h2>
 
 #### **MScR in Chemistry**, University of York 
 
