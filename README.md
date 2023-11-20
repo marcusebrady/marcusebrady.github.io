@@ -9,7 +9,7 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
 
 
 
-<h2>Education</h2>
+<h2 style="font-family: 'Courier Prime', monospace;">Education</h2>
 
 #### **MScR in Chemistry**, University of York 
 
@@ -17,7 +17,7 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
 
 
 
-## Skills
+<h2 style="font-family: 'Courier Prime', monospace;">Skills</h2> 
 
 - Proficient in Python
 - Practiced in Machine Learning:
@@ -29,7 +29,7 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
 
 
 
-## Contact Me
+<h2  style="font-family: 'Courier Prime', monospace;"> Contact Me </h2>
 
 <a href="https://www.linkedin.com/in/marcusebrady" target="_blank">
   <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn" style="height: 20px; width: 20px;"/> LinkedIn
