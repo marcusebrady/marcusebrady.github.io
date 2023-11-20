@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Home
+title: <span style="font-family: 'Your Custom Font', sans-serif;">Home</span>
 permalink: /
 ---
 <h2  style="font-family: 'Courier Prime', monospace;">About</h2>
-<br></br>
+<br>
 
 Hello, welcome to my GitHub pages! I'm a Masters student at the University of York working within the Evans Group in the Wolfson Atmospheric Chemistry Laboratory (WACL). My current research is using various machine learning techiques (interested in PINNs and domain-knowledge ML) to replace the Fast-JX photolysis calculator within the GEOS-Chem model. Read my research and interests section for more information!
 
@@ -13,8 +13,8 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
 <h2 style="font-family: 'Courier Prime', monospace;">Education</h2>
 
 
-<h4><span style="font-weight: bold;">MScR in Chemistry,</span> University of York</h4>
-<h4><span style="font-weight: bold;">BSc in Chemistry w/ Mathematics,</span> UCL</h4>
+<h5><span style="font-weight: bold;">MScR in Chemistry,</span> University of York</h5>
+<h5><span style="font-weight: bold;">BSc in Chemistry with Mathematics,</span> UCL</h5>
 
 
 
