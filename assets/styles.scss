@@ -34,15 +34,25 @@ body h1 {
 
 a {
   text-decoration: none !important;
-  text-decoration-color: transparent !important; // Making the underline transparent
-  color: #C4B7BB !important; // Your desired link color
+  text-decoration-color: transparent !important; 
+  color: #C4B7BB !important; 
 }
 
 a:hover, a:focus {
   text-decoration: none !important;
-  color: #C4B7BB !important; // Your desired hover color
+  color: #C4B7BB !important; 
 }
 
+.typeset a {
+  background-image: none;
+  text-decoration: none;
+  color: #C4B7BB; 
+}
+
+.typeset a:hover, .typeset a:focus {
+  background-image: none;
+  color: #C4B7BB; 
+}
 
 
 ol {
