@@ -30,7 +30,7 @@ a {
 }
 
 .header {
-  background-color: #FFFFFF; // This sets the header background to white
+  background-color: #FFFFCE; // This sets the header background to white
 }
 
 .header .nav .current a,
@@ -65,7 +65,10 @@ article.typeset a:focus {
 .footer h4, 
 .footer h5, 
 .footer h6, 
-.footer a {
+.footer a 
+.typeset small, 
+.typeset,
+.caption {
   font-family: 'Courier Prime', monospace;
 }
 
