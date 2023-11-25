@@ -19,41 +19,34 @@ body h1 {
   font-family: 'Courier Prime', monospace;
 }
 
-.header .nav a {
+// Default link style
+a {
+  text-decoration: none;
+  color: #000000; // Default link color is black
+}
 
-  color: #000000;
+// Header navigation link styles
+.header .nav a {
+  color: #000000; // Header links are also black by default
 }
 
 .header .nav .current a,
 .header .nav a:hover,
 .header .nav a:focus {
-  color: #C4B7BB; //colour for when hovering or selected etc
+  color: #C4B7BB; // Colour for when hovering or selected etc
 }
 
-
-
-a {
-  text-decoration: none !important;
-  text-decoration-color: transparent !important; 
-  color: #C4B7BB !important; 
-}
-
-a:hover, a:focus {
-  text-decoration: none !important;
-  color: #C4B7BB !important; 
-}
-
-
-
+// Override for typeset links
 article.typeset a {
-  background-image: none !important;
-  text-decoration: none !important;
-  color: #C4B7BB !important; /* Your desired link color */
+  background-image: none !important; // Only the background image needs !important to override the theme
+  text-decoration: none;
+  color: #000000; // Default color for typeset links
 }
 
-article.typeset a:hover, article.typeset a:focus {
-  background-image: none !important;
-  color: #C4B7BB !important; /* Your desired hover color */
+// Specific hover and focus styles for typeset links
+article.typeset a:hover, 
+article.typeset a:focus {
+  color: #C4B7BB; // Colour for hover and focus
 }
 
 
