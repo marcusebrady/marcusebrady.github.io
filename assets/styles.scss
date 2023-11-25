@@ -35,11 +35,13 @@ a {
 }
 
 // Override for typeset links
+
 article.typeset a {
-  background-image: none !important; // Only the background image needs !important to override the theme
+  background-image: none !important;
   text-decoration: none;
   color: #C4B7BB; // Default color for typeset links
 }
+
 
 // Specific hover and focus styles for typeset links
 article.typeset a:hover, 
