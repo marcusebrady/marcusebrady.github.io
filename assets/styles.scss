@@ -11,13 +11,11 @@ body {
   font-family: 'Courier Prime', monospace;
 }
 
-body h5 {
-  font-family: 'Courier Prime', monospace;
+.typeset h1, .typeset h2, .typeset h3, .typeset h4, .typeset h5, .typeset h6 {
+    font-family: 'Courier Prime', monospace !important; /* Overrides the font family */
 }
 
-body h1 {
-  font-family: 'Courier Prime', monospace;
-}
+
 
 // Default link style
 a {
@@ -40,7 +38,7 @@ a {
 article.typeset a {
   background-image: none !important; // Only the background image needs !important to override the theme
   text-decoration: none;
-  color: #000000; // Default color for typeset links
+  color: ##C4B7BB; // Default color for typeset links
 }
 
 // Specific hover and focus styles for typeset links
