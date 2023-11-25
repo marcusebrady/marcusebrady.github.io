@@ -20,16 +20,18 @@ body h1 {
 }
 
 .header .nav a {
+
   color: #000000;
 }
 
 .header .nav .current a,
 .header .nav a:hover,
 .header .nav a:focus {
-  color: #C4B7BB; 
+  color: #C4B7BB; //colour for when hovering or selected etc
 }
 
 a {
+  text-decoration: none; //remove links
   color: #C4B7BB; 
 }
 
