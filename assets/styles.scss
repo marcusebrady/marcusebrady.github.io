@@ -49,7 +49,16 @@ article.typeset a:focus {
   color: #C4B7BB; // Colour for hover and focus
 }
 
+// Footer styles
+.footer {
+  font-family: 'Courier Prime', monospace;
+  // Add other styling for the footer as needed
+}
 
+.header {
+  border-bottom: 1px solid #000000; // Adjust thickness as desired
+  // Other header styles
+}
 
 ol {
   list-style-position: inside;
