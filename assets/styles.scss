@@ -94,7 +94,15 @@ article.typeset a:focus {
     display: block;
   }
 }
-
+.content img.header-image {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
 
 .custom-title {
   font-family: 'Courier Prime', monospace;
