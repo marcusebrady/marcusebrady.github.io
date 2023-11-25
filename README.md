@@ -4,9 +4,12 @@ title: Home
 permalink: /
 ---
 
+<div class="header-image">
+  <img src="assets/header_image_1.png" alt="Header Image From Plots">
+</div>
 
 <h2  style="font-family: 'Courier Prime', monospace;">About</h2>
-<br>
+
 
 Hello, welcome to my GitHub pages! I'm a Masters student at the University of York working within the Evans Group in the Wolfson Atmospheric Chemistry Laboratory (WACL). My current research is using various machine learning techiques (interested in PINNs and domain-knowledge ML) to replace the Fast-JX photolysis calculator within the GEOS-Chem model. Read my research and interests section for more information!
 
