@@ -53,10 +53,13 @@ remote_theme: daviddarnes/alembic@main
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+sass:
+  style: compressed
 navigation_header:
 - title: Home
   url: /
-- title: Research Interests
+- title: Research
   url: /research/
 
 fonts:
