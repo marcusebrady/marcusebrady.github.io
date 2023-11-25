@@ -103,3 +103,21 @@ article.typeset a:focus {
 .custom-title {
   font-family: 'Courier Prime', monospace;
 }
+
+
+
+@keyframes floatAcross {
+  from {
+    transform: translateX(-100%); /* Start off-screen to the left */
+  }
+  to {
+    transform: translateX(100%); /* End off-screen to the right */
+  }
+}
+
+.floaty-element {
+  position: absolute; /* or fixed depending on your needs */
+  top: 50%; /* Adjust this to position at the desired height */
+  animation: floatAcross 10s infinite linear; /* Adjust timing as necessary */
+}
+
