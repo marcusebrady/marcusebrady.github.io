@@ -107,17 +107,19 @@ article.typeset a:focus {
 
 
 @keyframes floatAcross {
-  from {
-    transform: translateX(-100%); /* Start off-screen to the left */
+  0%, 100% {
+    transform: translateX(0%); /* Start and end in the original position */
   }
-  to {
-    transform: translateX(100%); /* End off-screen to the right */
+  50% {
+    transform: translateX(100%); /* Move to the right of the screen */
   }
 }
 
 .floaty-element {
-  position: absolute; /* or fixed depending on your needs */
+  position: absolute; /* 'fixed' would make it float across the whole page regardless of scrolling */
   top: 50%; /* Adjust this to position at the desired height */
-  animation: floatAcross 10s infinite linear; /* Adjust timing as necessary */
+  left: 0; /* Start from the left edge */
+  animation: floatAcross 20s infinite linear; /* Adjust timing as necessary */
 }
+
 
