@@ -33,11 +33,12 @@ body h1 {
 
 
 a {
-  text-decoration: none; // Removes underline from all links
+  text-decoration: none; !important// Removes underline from all links
   color: #C4B7BB; // Replace with your desired default color
 }
 
 a:hover, a:focus {
+  text-decoration: none; !important// Removes underline from all links
   color: #C4B7BB; // Replace with your desired hover color
 }
 
