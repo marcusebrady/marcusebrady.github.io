@@ -4,6 +4,9 @@ title: Home
 permalink: /
 ---
 
+<div class="floaty-element">
+  Floating Text!
+</div>
 
 
 <h2  style="font-family: 'Courier Prime', monospace;">About</h2>
