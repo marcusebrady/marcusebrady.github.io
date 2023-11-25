@@ -11,17 +11,28 @@ body {
   font-family: 'Courier Prime', monospace;
 }
 
-h5 {
+body h5 {
   font-family: 'Courier Prime', monospace;
 }
 
-h1 {
+body h1 {
   font-family: 'Courier Prime', monospace;
 }
 
 .header .nav a {
   color: #000000;
 }
+
+.header .nav .current a,
+.header .nav a:hover,
+.header .nav a:focus {
+  color: #C4B7BB; 
+}
+
+a {
+  color: #C4B7BB; 
+}
+
 
 ol {
   list-style-position: inside;
