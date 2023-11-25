@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="header-image">
-  <img src="assets/header_image_1.png" alt="Header Image From Plots">
+  <img src="assets/header_image_2.png" alt="Header Image From Plots">
 </div>
 
 <h2  style="font-family: 'Courier Prime', monospace;">About</h2>
