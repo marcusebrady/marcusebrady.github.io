@@ -30,9 +30,15 @@ body h1 {
   color: #C4B7BB; //colour for when hovering or selected etc
 }
 
+
+
 a {
-  text-decoration: none; //remove links
-  color: #C4B7BB; 
+  text-decoration: none; // Removes underline from all links
+  color: #C4B7BB; // Replace with your desired default color
+}
+
+a:hover, a:focus {
+  color: #C4B7BB; // Replace with your desired hover color
 }
 
 
