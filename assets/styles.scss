@@ -33,14 +33,16 @@ body h1 {
 
 
 a {
-  text-decoration-color:#FFFFFF;// Sets link as background colour: #FFFFFF
-  color: #C4B7BB; // Replace with your desired default color
+  text-decoration: none !important;
+  text-decoration-color: transparent !important; // Making the underline transparent
+  color: #C4B7BB !important; // Your desired link color
 }
 
 a:hover, a:focus {
-  text-decoration-color:#FFFFFF; // Sets link as background colour: #FFFFFF
-  color: #C4B7BB; // Replace with your desired hover color
+  text-decoration: none !important;
+  color: #C4B7BB !important; // Your desired hover color
 }
+
 
 
 ol {
