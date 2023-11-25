@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="floaty-element">
-  <img src="assets/fish.jpg" alt="Floating Image">
+  <img src="assets/fish.jpeg" alt="Floating Image">
 </div>
 
 
