@@ -3,7 +3,7 @@ layout: page
 title: Home
 permalink: /
 ---
-<h1 class="custom-title">Home</h1>
+
 
 <h2  style="font-family: 'Courier Prime', monospace;">About</h2>
 <br>
