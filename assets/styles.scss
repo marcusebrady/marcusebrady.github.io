@@ -29,6 +29,10 @@ a {
   color: #000000; // Header links are also black by default
 }
 
+.header {
+  background-color: #FFFFFF; // This sets the header background to white
+}
+
 .header .nav .current a,
 .header .nav a:hover,
 .header .nav a:focus {
@@ -40,7 +44,8 @@ a {
 article.typeset a {
   background-image: none !important;
   text-decoration: none;
-  color: #C4B7BB; // Default color for typeset links
+  text-shadow: none;
+  color: #a8adac; // Default color for typeset links  (this is the same as body)
 }
 
 
@@ -48,6 +53,7 @@ article.typeset a {
 article.typeset a:hover, 
 article.typeset a:focus {
   color: #C4B7BB; // Colour for hover and focus
+  text-shadow: none;
 }
 
 // Footer styles
