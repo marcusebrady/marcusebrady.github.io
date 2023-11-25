@@ -43,16 +43,19 @@ a:hover, a:focus {
   color: #C4B7BB !important; 
 }
 
-.typeset a {
-  background-image: none;
-  text-decoration: none;
-  color: #C4B7BB; 
+
+
+article.typeset a {
+  background-image: none !important;
+  text-decoration: none !important;
+  color: #C4B7BB !important; /* Your desired link color */
 }
 
-.typeset a:hover, .typeset a:focus {
-  background-image: none;
-  color: #C4B7BB; 
+article.typeset a:hover, article.typeset a:focus {
+  background-image: none !important;
+  color: #C4B7BB !important; /* Your desired hover color */
 }
+
 
 
 ol {
