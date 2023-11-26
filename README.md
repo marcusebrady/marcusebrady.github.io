@@ -29,6 +29,6 @@ See my education below
   <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn" style="height: 20px; width: 20px;"/> LinkedIn
 </a>  
 <a href="https://github.com/marcusebrady" target="_blank">
-  <img src="https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head.png" alt="GitHub" style="height: 20px; width: 20px;"/> GitHub
+  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="height: 20px; width: 20px;"/> GitHub
 </a>
 
