@@ -23,17 +23,6 @@ Hello, welcome to my GitHub pages! I'm a Masters student at the University of Yo
 
 <br>
 
-<h2>Skills</h2>
-
-
-- Proficient in Python
-- Practiced in Machine Learning:
-    - TensorFlow, Keras, PyTorch, XGBoost & others.
-    - Physics-Informed Neural Networks
-- Knowledge in Computational Chemistry:
-    - Quantum Mechanics & Molecular Dynamics
-    - CTMs like GEOS-Chem
-
 
 
 <h2> Contact Me </h2>
