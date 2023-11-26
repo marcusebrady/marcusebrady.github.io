@@ -58,11 +58,11 @@ remote_theme: daviddarnes/alembic@main
 navigation_header:
 - title: Home  
   url: /
-- title: Research  
+- title:   Research  
   url: /research/
-- title: CV  
+- title:   CV  
   url: /assets/placeholder_cv.pdf
-- title: About Me  
+- title:   About Me  
   url: /background/
 
 fonts:
