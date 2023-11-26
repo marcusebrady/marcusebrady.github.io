@@ -60,6 +60,8 @@ navigation_header:
   url: /
 - title: Research
   url: /research/
+- title: CV
+  url: /assets/placeholder_cv.pdf
 - title: About Me
   url: /background/
 
