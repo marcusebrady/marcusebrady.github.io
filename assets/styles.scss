@@ -45,14 +45,14 @@ article.typeset a {
   background-image: none !important;
   text-decoration: none;
   text-shadow: none;
-  color: #a8adac; // Default color for typeset links  (this is the same as body)
+  color: #C4B7BB; // Default color for typeset links  (this is the same as body)
 }
 
 
 // Specific hover and focus styles for typeset links
 article.typeset a:hover, 
 article.typeset a:focus {
-  color: #C4B7BB; // Colour for hover and focus
+  color: #78A2CC; // Colour for hover and focus
   text-shadow: none;
 }
 
