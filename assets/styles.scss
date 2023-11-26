@@ -9,7 +9,7 @@ styles: true
 
 body {
   font-family: 'Courier Prime', monospace;
-  background-color: #FFF7E4; // desired color code (pastel yellow)
+  background-color: #DFC98A; // desired color code (pastel yellow)
 }
 
 .typeset h1, .typeset h2, .typeset h3, .typeset h4, .typeset h5, .typeset h6 {
@@ -30,15 +30,15 @@ a {
 }
 
 .header {
-  background-color: #ffffbf; // This sets the header background to white
+  background-color: #D6B85A; // This sets the header background to white
 }
 
 .footer {
-  background-color: #ffffbf; // This sets the header background to white
+  background-color: #D6B85A; // This sets the header background to white
 }
 
 .footer {
-  border-top: 1px solid #000000; // Adjust thickness as desired
+  border-top: 2px solid #000000; // Adjust thickness as desired
   // Other header styles
 }
 
@@ -83,7 +83,7 @@ article.typeset a:focus {
 
 
 .header {
-  border-bottom: 1px solid #000000; // Adjust thickness as desired
+  border-bottom: 2px solid #000000; // Adjust thickness as desired
   // Other header styles
 }
 
