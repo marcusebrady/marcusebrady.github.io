@@ -25,10 +25,10 @@ See my education below
 
 <h2> Links </h2>
 
-<a href="https://www.linkedin.com/in/marcusebrady" target="_blank" style="font-size: 40px;">
-  <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn" style="height: 40px; width: 40px;"/> LinkedIn
+<a href="https://www.linkedin.com/in/marcusebrady" target="_blank" style="font-size: 30px;">
+  <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn" style="height: 30px; width: 30px;"/> LinkedIn
 </a>  
-<a href="https://github.com/marcusebrady" target="_blank" style="font-size: 40px;">
-  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="height: 40px; width: 40px;"/> GitHub
+<a href="https://github.com/marcusebrady" target="_blank" style="font-size: 30px;">
+  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="height: 30px; width: 30px;"/> GitHub
 </a>
 
