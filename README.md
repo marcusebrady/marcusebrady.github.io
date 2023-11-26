@@ -16,7 +16,7 @@ See my education below
 <h3>Education</h3>
 
 <h5><span style="font-weight: bold;">MScR in Chemistry,</span> University of York</h5>
-<br>
+
 <h5><span style="font-weight: bold;">BSc in Chemistry with Mathematics,</span> UCL</h5>
 
 
@@ -27,9 +27,7 @@ See my education below
 
 <a href="https://www.linkedin.com/in/marcusebrady" target="_blank">
   <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn" style="height: 20px; width: 20px;"/> LinkedIn
-</a>
-
-
+</a>  
 <a href="https://github.com/marcusebrady" target="_blank">
   <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" style="height: 20px; width: 20px;"/> LinkedIn
 </a>
