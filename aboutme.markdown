@@ -9,7 +9,7 @@ I'm a current Masters by Research student at the University of York, found withi
 I did my undergraduate at UCL in Chemistry w/ Mathematics. This is where I first stumbled across Machine Learning within chemistry, specifically within Crystal Structure Prediction. To develop my machine learning skills, I worked on some personal projects on kaggle. 
 I learnt various nerual networks models, techniques and methodologies and supported my understanding by reading the literature. 
 My most recent personal project involves using graph neural networks in RNA reactivity prediction.
-For a bit more about my research interest and my past experience, see my [research section](/research/).
+For a bit more about my research interest and my past experience, see my research section.
 
 
 <h2>Skills</h2>
