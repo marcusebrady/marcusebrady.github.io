@@ -78,7 +78,8 @@ article.typeset a:focus {
   // Other header styles
 }
 
-.typeset ol {
+.typeset ul li, 
+.typeset ol li  {
   list-style-position: inside;
 }
 
