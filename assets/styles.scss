@@ -37,6 +37,11 @@ a {
   background-color: #ffffbf; // This sets the header background to white
 }
 
+.footer {
+  border-top: 1px solid #000000; // Adjust thickness as desired
+  // Other header styles
+}
+
 .header .nav .current a,
 .header .nav a:hover,
 .header .nav a:focus {
