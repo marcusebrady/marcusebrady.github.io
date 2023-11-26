@@ -4,9 +4,7 @@ title: Home
 permalink: /
 ---
 
-<div class="floaty-element">
-  <img src="assets/fish.jpeg" alt="Floating Image">
-</div>
+<h2>About</h2>
 
 
 <h2  style="font-family: 'Courier Prime', monospace;">About</h2>
