@@ -30,7 +30,7 @@ a {
 }
 
 .header {
-  background-color: #FFF4BC; // This sets the header background to white
+  background-color: #FFF7E4; // This sets the header background to white
 }
 
 .header .nav .current a,
@@ -45,14 +45,14 @@ article.typeset a {
   background-image: none !important;
   text-decoration: none;
   text-shadow: none;
-  color: #C4B7BB; // Default color for typeset links  (this is the same as body)
+  color: #78A2CC; // Default color for typeset links  (this is the same as body)
 }
 
 
 // Specific hover and focus styles for typeset links
 article.typeset a:hover, 
 article.typeset a:focus {
-  color: #78A2CC; // Colour for hover and focus
+  color: #C4B7BB; // Colour for hover and focus
   text-shadow: none;
 }
 
