@@ -9,10 +9,10 @@ Since my undergraduate I have developed an interest in the use of AI and Machine
 
 <h2>Research Experience</h2>
 
-<h5 font-weight: bold;">Masters Project - Paramterisation of Photolysis Rates</h5>
+<h5>Masters Project - Paramterisation of Photolysis Rates</h5>
 Test
 
-<h5 font-weight: bold;">Personal Project - Graph-NNs for RNA reactivity prediction</h5>
+<h5>Personal Project - Graph-NNs for RNA reactivity prediction</h5>
 
 A kaggle competition I used to hone my skills for different type of NNs. The most succesful in the competition I believe was a transformer based architecture, this of course makes sense. Instead of this I tried something a bit more interesting (at least to me).
 Since all we had to go off was the RNA sequence and the relative reactivity, transformers would be the most obvious approach, instead I tried to exploit the graphical nature of RNA using GNNs. Using PyTorch Geomtric I developed two main approaches:
