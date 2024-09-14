@@ -1,0 +1,63 @@
+.photos-page {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Updated Flexbox layout for photo grid */
+.photo-grid {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+  gap: 20px; /* Space between photos */
+}
+
+.photo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 45%; /* Adjust this value as needed to make two columns */
+}
+
+.photo-item img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer; /* Make it look clickable */
+}
+
+.photo-info {
+  font-family: 'JetBrains Mono', monospace; /* Monospace text */
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #cccccc; /* Light gray text for date and place */
+}
+
+/* Lightbox Styles */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Make sure it's on top */
+  cursor: pointer; /* Click anywhere to close */
+}
+
+.enlarged-photo {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
