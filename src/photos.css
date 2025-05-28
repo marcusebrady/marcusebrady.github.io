@@ -12,6 +12,14 @@ h2 {
   margin-bottom: 2rem;
 }
 
+/* Mobile h2 */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
 /* Updated Flexbox layout for photo grid */
 .photo-grid {
   display: flex;
@@ -25,7 +33,18 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 45%; /* Adjust this value as needed to make two columns */
+  max-width: 45%; /* Two columns on desktop */
+}
+
+/* Mobile photo grid - single column */
+@media (max-width: 768px) {
+  .photo-grid {
+    gap: 15px;
+  }
+  
+  .photo-item {
+    max-width: 100%; /* Full width on mobile */
+  }
 }
 
 .photo-item img {
@@ -36,9 +55,18 @@ h2 {
 
 .photo-info {
   font-family: 'JetBrains Mono', monospace; /* Monospace text */
-  font-size: 1rem;
+  font-size: 1.1rem; /* Increase font size for better readability */
   margin-top: 10px;
-  color: #cccccc; /* Light gray text for date and place */
+  color: #999999; /* Light gray text for date and place */
+  text-align: center; /* Center the text */
+}
+
+/* Mobile photo info */
+@media (max-width: 768px) {
+  .photo-info {
+    font-size: 0.9rem;
+    padding: 0 10px; /* Add some padding on mobile */
+  }
 }
 
 /* Lightbox Styles */
@@ -54,10 +82,23 @@ h2 {
   align-items: center;
   z-index: 1000; /* Make sure it's on top */
   cursor: pointer; /* Click anywhere to close */
+  padding: 20px; /* Add padding for mobile */
 }
 
 .enlarged-photo {
   max-width: 90%;
   max-height: 90%;
   object-fit: contain;
+}
+
+/* Mobile lightbox adjustments */
+@media (max-width: 768px) {
+  .lightbox {
+    padding: 10px;
+  }
+  
+  .enlarged-photo {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }

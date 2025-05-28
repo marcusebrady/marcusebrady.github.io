@@ -37,7 +37,6 @@
   }
 }
 
-
 ul.blog-list {
   list-style-type: none;
   padding-left: 0;
@@ -47,9 +46,29 @@ ul.blog-list {
   margin-bottom: 1rem;
 }
 
+.intro {
+  font-weight: 500; /* Slightly bolder than normal */
+  font-size: 1.1rem; /* Optional: increase font size slightly */
+}
+
+/* Mobile intro text */
+@media (max-width: 768px) {
+  .intro {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 .date {
   font-weight: bold;
   color: #999; /* Grey color for dates */
+  font-size: 1.1rem; /* Slightly larger font size */
+}
+
+.body {
+  color: #999; /* Grey color for the body text */
+  font-size: 1.1rem; /* Make the gray text slightly larger */
+  font-weight: 400; /* Less bold than normal */
 }
 
 a {
@@ -60,5 +79,36 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: #999; /* Match hover color to gray */
 }
 
+/* Additional styles for header icons */
+.icon-group {
+  display: flex;
+  gap: 20px; /* Increased spacing between the icons */
+}
+
+.camera-icon,
+.pen-icon {
+  font-size: 2rem; /* Increased from 1.5rem to 2rem */
+  color: #ffffff; /* Match icon color to the theme */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.camera-icon:hover,
+.pen-icon:hover {
+  color: #999; /* Change to the same gray as used elsewhere */
+}
+
+/* Mobile icon adjustments */
+@media (max-width: 768px) {
+  .icon-group {
+    gap: 15px;
+  }
+  
+  .camera-icon,
+  .pen-icon {
+    font-size: 1.8rem; /* Slightly smaller on mobile but still prominent */
+  }
+}

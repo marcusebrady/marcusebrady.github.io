@@ -20,7 +20,8 @@ code {
   --font-weight-bold: 700;
   --text-color: #ffffff; /* White text */
   --background-color: #000000; /* Black background */
-  --container-width: 55%; /* Width of the content container */
+  --container-width: 55%; /* Width of the content container on desktop */
+  --mobile-padding: 20px; /* Padding for mobile */
 }
 
 /* Base Styles */
@@ -46,10 +47,18 @@ body {
 }
 
 .container {
-  width: var(--container-width); /* Container width */
+  width: var(--container-width); /* Container width for desktop */
   margin: 0 auto;
   padding: 20px;
   text-align: left; /* Ensures text is aligned left */
+}
+
+/* Mobile Responsive - Tablets and phones */
+@media (max-width: 768px) {
+  .container {
+    width: 100%; /* Full width on mobile */
+    padding: var(--mobile-padding);
+  }
 }
 
 /* Header */
@@ -57,6 +66,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 1rem;
 }
 
 /* Style for the Marcus Brady heading */
@@ -67,17 +78,34 @@ h1 {
   text-transform: uppercase;
 }
 
+/* Mobile heading size */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
 /* Camera Icon */
-.camera-icon {
+.camera-icon,
+.pen-icon {
   font-size: 2.5rem; /* Adjust size to match the heading */
   cursor: pointer;   /* Makes it look clickable */
   color: var(--text-color); /* Set icon color to match text color */
 }
 
-.camera-icon:hover {
+.camera-icon:hover,
+.pen-icon:hover {
   color: #999999; /* Grey color on hover */
 }
 
+/* Mobile icon size */
+@media (max-width: 768px) {
+  .camera-icon,
+  .pen-icon {
+    font-size: 2rem !important; /* Increased from 1.8rem */
+  }
+}
 
 /* Home link (Marcus Brady) */
 .home-link {
@@ -102,9 +130,25 @@ p {
   line-height: var(--line-height);
 }
 
+/* Mobile paragraph size */
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 h2 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
+}
+
+/* Mobile h2 size */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
 }
 
 /* Update List */
@@ -116,6 +160,13 @@ ul.update-list {
 /* Individual Updates */
 .update-list li {
   margin-bottom: 2.5rem; /* Increased space between updates */
+}
+
+/* Mobile update spacing */
+@media (max-width: 768px) {
+  .update-list li {
+    margin-bottom: 2rem;
+  }
 }
 
 .date {
@@ -133,9 +184,50 @@ ul.update-list {
   display: inline-block;
 }
 
+/* Mobile date and heading */
+@media (max-width: 768px) {
+  .date,
+  .heading {
+    font-size: 1rem;
+    display: block; /* Stack date and heading vertically on mobile */
+    margin-bottom: 0.5rem;
+  }
+  
+  .date {
+    margin-right: 0;
+  }
+}
+
 .body {
   font-size: 0.9rem; /* Increased font size for body */
   color: #bbb; /* Light grey color for body text */
   margin-top: 9px; /* Added space between heading and body */
   font-weight: 700; /* Made body text bolder */
+}
+
+/* Mobile body text */
+@media (max-width: 768px) {
+  .body {
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+  }
+}
+
+/* Ensure ReactMarkdown content inherits styles */
+.body p {
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+/* Links within body text */
+.body a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.body a:hover {
+  color: #999;
 }

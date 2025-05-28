@@ -1,0 +1,347 @@
+/* Writing.css */
+.writing-page {
+  padding: 2rem;
+  text-align: left;
+  color: #ffffff; /* Match the default color of the text to your existing theme */
+}
+
+/* Mobile padding adjustment */
+@media (max-width: 768px) {
+  .writing-page {
+    padding: 1rem;
+  }
+}
+
+.writing-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove default padding */
+}
+
+.writing-item {
+  margin-bottom: 2rem; /* Increased space between each item */
+  border-bottom: 1px solid #333; /* Subtle separator */
+  padding-bottom: 1.5rem;
+}
+
+.writing-item:last-child {
+  border-bottom: none; /* Remove border from last item */
+}
+
+.writing-title {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #ffffff; /* Match the text color to your default theme */
+  margin-bottom: 0.5rem;
+}
+
+/* Mobile title size */
+@media (max-width: 768px) {
+  .writing-title {
+    font-size: 1.2rem;
+  }
+}
+
+.writing-summary {
+  color: #bbb; /* Light grey for summary text */
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.writing-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem; /* Slightly larger font size for better readability */
+}
+
+/* Mobile meta adjustment */
+@media (max-width: 768px) {
+  .writing-meta {
+    font-size: 1rem;
+  }
+}
+
+.read-more {
+  color: #999; /* Gray color for the "Read" link */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem; /* Make the link slightly larger */
+}
+
+.read-more:hover {
+  text-decoration: underline; /* Underline on hover for the "Read" link */
+  color: #999;
+}
+
+.writing-date {
+  color: #999; /* Gray color for the date */
+  font-size: 1.1rem; /* Make the date slightly larger */
+}
+
+/* Mobile read-more and date */
+@media (max-width: 768px) {
+  .read-more,
+  .writing-date {
+    font-size: 1rem;
+  }
+}
+
+/* Article Page Styles */
+.article-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px; /* Add horizontal padding */
+}
+
+/* Mobile article page */
+@media (max-width: 768px) {
+  .article-page {
+    padding: 0;
+  }
+  
+  .article-page h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0 15px; /* Add padding for title */
+  }
+  
+  /* Restore padding for content after video */
+  .video-controls,
+  .video-description,
+  .article-footer {
+    padding: 0 15px;
+  }
+}
+
+.article-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Mobile article content */
+@media (max-width: 768px) {
+  .article-content {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+.article-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.article-content h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+/* Mobile article headings */
+@media (max-width: 768px) {
+  .article-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .article-content h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+.article-content p {
+  margin-bottom: 1.5rem;
+}
+
+.article-content ul {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.article-content li {
+  margin-bottom: 0.5rem;
+}
+
+.video-container {
+  position: relative;
+  margin: 2rem auto;
+  max-width: 600px;
+  background-color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* Mobile video container - full width */
+@media (max-width: 768px) {
+  .video-container {
+    margin: 1rem -15px; /* Negative margins to break out of container padding */
+    max-width: 100vw; /* Full viewport width */
+    border-radius: 0; /* No border radius for edge-to-edge look */
+    box-shadow: none; /* Remove shadow on mobile */
+  }
+  
+  /* Adjust article page padding to accommodate full-width video */
+  .article-page {
+    padding: 0;
+  }
+  
+  .article-page h2 {
+    padding: 0 15px; /* Add padding back for the title */
+  }
+}
+
+.video-container video {
+  width: 100%;
+  display: block;
+  -webkit-playsinline: true; /* For iOS Safari */
+  playsinline: true;
+}
+
+/* Video overlay for play button */
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.play-button {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  padding-left: 5px; /* Center the play icon */
+  transition: transform 0.2s;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+/* Video error message */
+.video-error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Video controls */
+.video-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.control-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.control-button:hover {
+  background-color: #555;
+}
+
+.speed-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+.speed-label {
+  color: #999;
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.speed-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', monospace;
+  transition: background-color 0.2s;
+}
+
+.speed-button:hover {
+  background-color: #555;
+}
+
+.speed-button.active {
+  background-color: #666;
+}
+
+.video-description {
+  max-width: 600px;
+  margin: 1rem auto;
+  color: #bbb;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 0 20px; /* Add padding for mobile */
+}
+
+/* Mobile video description */
+@media (max-width: 768px) {
+  .video-description {
+    font-size: 0.85rem;
+    padding: 0 15px;
+  }
+}
+
+.article-footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* Mobile article footer */
+@media (max-width: 768px) {
+  .article-footer {
+    margin-top: 2rem;
+  }
+}
+
+.back-link {
+  color: #999;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
